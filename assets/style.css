@@ -1,69 +1,77 @@
-ul, li{
-margin: 0;
-padding: 0;
-border: 0;
-font-size: 100%;
-font: inherit;
-vertical-align: baseline;
-}
-	body {
-		 width: 100%;
-		 margin: 0 auto;
-		 padding-top: 5px;
-		 height: 100%;
-	}
-	header {
-			height: 150px;
-			background-color:black;
-			color:white;
-			text-align:center;
-			padding:5px;
-			font-size: 30px;
-			display: block;
-			width: 100%;
-	}
-	header h1 {
-		padding: 30px;
-	}
-	nav {
-			height: 100%;
-			background-color:#eeeeee;
-			width:125px;
-			display: inline-block;
-			vertical-align: top;
-			padding:8px;
-			font-size: 20px;
-	}
-	nav a {
-	text-decoration: none;
-			font-size: 12px;
-	}
-	section {
-	text-align: center;
-		width: 516px;
-		display: inline-block;
-	}
-	section img{
-		width: 300px;
-	}
-	aside {
-		height: 100%;
-		width: 125px;
-		font-size: 12px;
-		display: inline-block;
-		vertical-align: top;
-		background-color:#eeeeee;
-		padding: 8px;
-	}
-	aside h3 {
-			font-size: 20px;
-	}
-	footer {
-			width: 100%;
-			height: 75px;
-			background-color:black;
-			color:white;
-			text-align:center;
-			padding:5px;
-			display: block;
-	}
+    html {
+      height: 100%;
+    }
+    body {
+       width: 800px;
+       margin: 0 auto;
+       padding-top: 5px;
+       height: 100%;
+    }
+    header {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 5px;
+        font-size: 20px;
+        display: block;
+        width: 790px;
+    }
+    nav {
+        font-size: 18px;
+        float: left;
+    }
+    nav ul {
+        background-color: #dddddd;
+        height: 45px;
+        width: 800px;
+        padding: 0px;
+        margin: 0 0 0 0;
+        float: left;
+        border-bottom: 1px solid #cccccc;
+        list-style-type: none;
+    }
+    nav li {
+        float: left;
+    }
+    nav li a {
+        display: block;
+        height: 25px;
+        border-right: 1px solid #cccccc;
+        padding: 12px 18px 8px 18px;
+        vertical-align: middle;
+    }
+    a {
+        color: black;
+    }
+    section {
+        width: 73%;
+        display: inline-block;
+        float: left;
+        padding:10px;
+    }
+    section img {
+    		width: 300px;
+    		height: 300px;
+    }
+    aside {
+        width: 17%;
+        display: inline-block;
+        float: right;
+        vertical-align: top;
+        background-color: #eeeeee;
+        font-size: 18px;
+        padding: 8px;
+        min-height: 100%;
+    }
+    aside ul {
+        list-style-type: none;
+    }
+    footer {
+        width: 790px;
+        background-color:black;
+        color:white;
+        text-align:center;
+        clear: both;
+        padding:5px;
+        display: block;
+    }
